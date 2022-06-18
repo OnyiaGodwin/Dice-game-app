@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="owngame.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pig Game</title>
+</head>
+<body>
+
+  
+
+    <div class="main container">
+
+        <!-------------------PLAYER ONE ------------> 
+
+        <div class="player-0 active" id="playerOneId">
+            <div class="player-name" id="player-0-Name">PLAYER 1</div>
+            <div class="player-0-score" id="score-0">0</div>
+            <div class="current-container">
+                <div class="current">CURRENT</div>
+                <div class="current-score1" id="current-0">0</div>
+                <div class="player-1-rolled-1"></div>
+            </div>
+        </div>
+        
+        <!--------------------PLAYER TWO ------------>
+
+        <div class="player-1" id="playerTwoId">
+            <div class="player-name" id="player-1-Name">PLAYER 2</div>
+            <div class="player-1-score" id="score-1">0</div>
+            <div class="current-container">
+                <div class="current">CURRENT</div>
+                <div class="current-score2" id="current-1">0</div>
+                <div class="player-2-rolled-1"></div>
+            </div>
+
+            <!------------------BUTTON ------------->
+        </div>
+        <input type="text" value ="" class="input" id="inputId" style="text-align: center;">
+            <button class="new-game-btn" id="new-game-btn-btn"><i class="ion-ios-plus-outline"></i> NEW GAME</button>
+            <button class="input-btn" id="input-btn-btn">Enter</button>
+            <button class="roll-btn" id="roll-btn-btn"><i class="ion-ios-loop"></i>ROLL DICE</button>
+            <button class="hold-btn" id="hold-btn-btn"><i class="ion-ios-download-outline"></i>HOLD ON</button>
+
+            <!--------------------IMAGE--------------->
+            <img src="" alt="Dice" class="dice" id="diceImg">       
+            <img src="" alt="Dice" class="dice2" id="diceImg2">       
+        </div>
+
+    
+        <script src="owngame.js"></script>
+</body>
+</html>
